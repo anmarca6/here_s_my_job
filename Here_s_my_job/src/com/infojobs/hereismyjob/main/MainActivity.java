@@ -10,7 +10,6 @@ package com.infojobs.hereismyjob.main;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
-
 import org.apache.http.HttpHost;
 import org.apache.http.HttpResponse;
 import org.apache.http.auth.AuthScope;
@@ -18,7 +17,6 @@ import org.apache.http.auth.UsernamePasswordCredentials;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.StrictMode;
@@ -39,7 +37,8 @@ public class MainActivity extends Activity {
         		StrictMode.setThreadPolicy(policy);
         setContentView(R.layout.layout_main_activity);        
         //httpManager = new HttpManager("https://api.infojobs.net/api/1/offer");
-        HttpManager("https://api.infojobs.net/api/1/offer?contractType=indefinido&province=valencia&category=java");
+        //HttpManager("https://api.infojobs.net/api/1/offer?contractType=indefinido&province=valencia&category=java");        
+        HttpManager("https://api.infojobs.net/api/1/offer");
     }    
     
    
@@ -56,6 +55,8 @@ public class MainActivity extends Activity {
 			
 			// create a GET method that queries some API operation  
 			request = new HttpGet(str);  
+			
+System.out.println(str);
 			
 			// execute the operation  
 			response = client.execute(targetHost,request);  

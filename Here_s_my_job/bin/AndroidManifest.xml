@@ -3,10 +3,12 @@
     package="com.infojobs.hereismyjob.main"
     android:versionCode="1"
     android:versionName="1.0" >
-
+<!-->OHIO<-->
     <uses-sdk
         android:minSdkVersion="9"
         android:targetSdkVersion="16" />
+    <permission android:name="android.permission.INTERNET"></permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
