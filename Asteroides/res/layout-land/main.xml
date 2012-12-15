@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dip" >
+    <TextView
+        style="@style/TextoAsteroides"
+        android:text="@string/tituloAplicacion"/>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:gravity="center"
+        android:stretchColumns="*">
+        <TableRow
+            android:id="@+id/filaSuperiorTableLayout">
+            <Button
+        		style="@style/TextoAsteroides.Botones"
+                android:id="@+id/jugarButton"                
+                android:text="@string/jugarButtonString" />
+            <Button
+                style="@style/TextoAsteroides.Botones"
+                android:id="@+id/configurarButton"                
+                android:text="@string/configurarButtonString" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/filaInferiorTableLayout" >
+            <Button
+                style="@style/TextoAsteroides.Botones"
+                android:id="@+id/acercadeButton"                
+                android:text="@string/acercadeButtonString" />
+            <Button
+                style="@style/TextoAsteroides.Botones"
+                android:id="@+id/salirButton"                
+                android:text="@string/salirButtonString" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

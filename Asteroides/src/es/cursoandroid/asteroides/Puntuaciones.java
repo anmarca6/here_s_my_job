@@ -1,0 +1,22 @@
+package es.cursoandroid.asteroides;
+
+import android.app.ListActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ListView;
+import android.widget.Toast;
+
+public class Puntuaciones extends ListActivity {
+	
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.puntuaciones);
+		setListAdapter(new MiAdaptador(this,Asteroides.almacenPuntuaciones.listarPuntuaciones(10)));
+	}
+	
+	protected void onListItemClick(ListView listView,View view,int position,long id) {
+		super.onListItemClick(listView,view,position,id);
+		Object obj = getListAdapter().getItem(position);
+		Toast.makeText(this,"Selección: " + Integer.toString(position) + "-" +obj.toString(),Toast.LENGTH_SHORT).show();
+	}
+}
