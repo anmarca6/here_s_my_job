@@ -21,19 +21,20 @@ public final class R {
         public static final int asteroide2=0x7f020001;
         public static final int asteroide3=0x7f020002;
         public static final int degradado=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
+        public static final int hmj_background=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
     }
     public static final class id {
         public static final int acercaDe=0x7f09000c;
         public static final int acercaDeTextView=0x7f090000;
-        public static final int acercadeButton=0x7f090006;
+        public static final int acercadeButton=0x7f090007;
         public static final int config=0x7f09000b;
         public static final int configurarButton=0x7f090005;
         public static final int filaInferiorTableLayout=0x7f09000a;
         public static final int filaSuperiorTableLayout=0x7f090009;
         public static final int icono=0x7f090001;
         public static final int jugarButton=0x7f090004;
-        public static final int puntuacionesButton=0x7f090007;
+        public static final int puntuacionesButton=0x7f090006;
         public static final int salirButton=0x7f090008;
         public static final int subtitulo=0x7f090003;
         public static final int titulo=0x7f090002;
@@ -50,17 +51,20 @@ public final class R {
     public static final class string {
         public static final int acercadeButtonString=0x7f060005;
         public static final int app_name=0x7f060001;
+        public static final int cameraString=0x7f060008;
         public static final int configurarButtonString=0x7f060004;
         public static final int hello=0x7f060000;
         public static final int jugarButtonString=0x7f060003;
+        public static final int locationString=0x7f06000a;
+        public static final int nfcString=0x7f060009;
         public static final int puntuacionesButtonString=0x7f060007;
         public static final int salirButtonString=0x7f060006;
         public static final int tituloAplicacion=0x7f060002;
     }
     public static final class style {
-        public static final int TemaAsteroides=0x7f070002;
-        public static final int TextoAsteroides=0x7f070000;
-        public static final int TextoAsteroides_Botones=0x7f070001;
+        public static final int Main=0x7f070000;
+        public static final int Main_Botones=0x7f070001;
+        public static final int MainTheme=0x7f070002;
     }
     public static final class xml {
         public static final int preferencias=0x7f040000;

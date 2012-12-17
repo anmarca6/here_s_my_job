@@ -2,37 +2,38 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@drawable/hmj_background"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/degradado"
     android:padding="30dip" >
+
     <TextView
-        style="@style/TextoAsteroides"
-        android:text="@string/tituloAplicacion"/>
+        style="@style/Main"
+        android:text="@string/tituloAplicacion" />
 
     <Button
-        style="@style/TextoAsteroides.Botones"
-        android:id="@+id/jugarButton"        
-        android:text="@string/jugarButtonString" />
+        android:id="@+id/jugarButton"
+        style="@style/Main.Botones"
+        android:text="@string/cameraString" />
 
     <Button
-        style="@style/TextoAsteroides.Botones"
-        android:id="@+id/configurarButton"        
-        android:text="@string/configurarButtonString" />
-
-    <Button
-        android:id="@+id/acercadeButton"
-        style="@style/TextoAsteroides.Botones"
-        android:text="@string/acercadeButtonString" />
+        android:id="@+id/configurarButton"
+        style="@style/Main.Botones"
+        android:text="@string/nfcString" />
 
     <Button
         android:id="@+id/puntuacionesButton"
-        style="@style/TextoAsteroides.Botones"
-        android:text="@string/puntuacionesButtonString" />
+        style="@style/Main.Botones"
+        android:text="@string/locationString" />
+
+    <Button
+        android:id="@+id/acercadeButton"
+        style="@style/Main.Botones"
+        android:text="@string/acercadeButtonString" />
 
     <Button
         android:id="@+id/salirButton"
-        style="@style/TextoAsteroides.Botones"
+        style="@style/Main.Botones"
         android:text="@string/salirButtonString" />
 
 </LinearLayout>

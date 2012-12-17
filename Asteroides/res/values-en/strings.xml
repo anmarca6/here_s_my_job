@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, Asteroides!</string>
-    <string name="app_name">Asteroides</string>
-    <string name="tituloAplicacion">Asteroides</string>
-    <string name="jugarButtonString">Play</string>
-    <string name="configurarButtonString">Settings</string>
+    <string name="app_name">Here\'s my job</string>
+    <string name="tituloAplicacion">Here\'s my job</string>
+    <string name="cameraString">Publish offer from street</string>
+    <string name="nfcString">NFC actions</string>
     <string name="acercadeButtonString">About</string>
-    <string name="puntuacionesButtonString">Scores</string>
-    <string name="salirButtonString">Out</string>
+    <string name="locationString">Infojobs Maps</string>
+    <string name="salirButtonString">Exit</string>
 
 </resources>

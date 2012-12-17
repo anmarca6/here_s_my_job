@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="30dip" >
     <TextView
-        style="@style/TextoAsteroides"
+        style="@style/Main"
         android:text="@string/tituloAplicacion"/>
     <TableLayout
         android:layout_width="fill_parent"
@@ -16,22 +16,22 @@
         <TableRow
             android:id="@+id/filaSuperiorTableLayout">
             <Button
-        		style="@style/TextoAsteroides.Botones"
+        		style="@style/Main.Botones"
                 android:id="@+id/jugarButton"                
                 android:text="@string/jugarButtonString" />
             <Button
-                style="@style/TextoAsteroides.Botones"
+                style="@style/Main.Botones"
                 android:id="@+id/configurarButton"                
                 android:text="@string/configurarButtonString" />
         </TableRow>
         <TableRow
             android:id="@+id/filaInferiorTableLayout" >
             <Button
-                style="@style/TextoAsteroides.Botones"
+                style="@style/Main.Botones"
                 android:id="@+id/acercadeButton"                
                 android:text="@string/acercadeButtonString" />
             <Button
-                style="@style/TextoAsteroides.Botones"
+                style="@style/Main.Botones"
                 android:id="@+id/salirButton"                
                 android:text="@string/salirButtonString" />
         </TableRow>
