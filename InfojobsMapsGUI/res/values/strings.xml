@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Here\'s my job!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="app_title">Here\'s my job!</string>
+    <string name="app_subtitle">powered by InfoJobs</string>
+    <string name="busco_ofertas_text_view">Busco ofertas de:</string>
+    <string name="enTextField">en:</string>
+    <string name="deTextView">de:</string>
+    <string name="buttonTextField">¡Encuentra ofertas!</string>
+
+</resources>
